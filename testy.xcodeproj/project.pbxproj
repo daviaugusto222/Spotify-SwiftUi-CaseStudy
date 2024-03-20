@@ -11,6 +11,8 @@
 		CEA3618E2BA224B20095660D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3618D2BA224B20095660D /* ContentView.swift */; };
 		CEA361902BA224B30095660D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA3618F2BA224B30095660D /* Assets.xcassets */; };
 		CEA361932BA224B30095660D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA361922BA224B30095660D /* Preview Assets.xcassets */; };
+		CEA3619C2BA8B0840095660D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3619B2BA8B0840095660D /* MainView.swift */; };
+		CEA3619E2BA8B1460095660D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3619D2BA8B1460095660D /* LibraryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CEA3618D2BA224B20095660D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEA3618F2BA224B30095660D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA361922BA224B30095660D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA3619B2BA8B0840095660D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CEA3619D2BA8B1460095660D /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				CEA3618B2BA224B20095660D /* testyApp.swift */,
+				CEA3619B2BA8B0840095660D /* MainView.swift */,
+				CEA3619D2BA8B1460095660D /* LibraryView.swift */,
 				CEA3618D2BA224B20095660D /* ContentView.swift */,
 				CEA3618F2BA224B30095660D /* Assets.xcassets */,
 				CEA361912BA224B30095660D /* Preview Content */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA3618E2BA224B20095660D /* ContentView.swift in Sources */,
+				CEA3619E2BA8B1460095660D /* LibraryView.swift in Sources */,
+				CEA3619C2BA8B0840095660D /* MainView.swift in Sources */,
 				CEA3618C2BA224B20095660D /* testyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
